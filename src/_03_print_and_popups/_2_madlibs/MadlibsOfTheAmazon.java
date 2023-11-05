@@ -24,14 +24,15 @@ public class MadlibsOfTheAmazon {
 		// Hint:  You will need to add more + signs to join the variables to the other parts of the story.
 		
 	  String story =
-	    "Piranhas are more"+input+ "during the day, so cross the river at\n" +
-		"night. Piranhas are attracted to fresh"+input1+ "and will most\n" +
-		"likely take a bite out of your"+input2+ "if you"+input3+ ". Whatever\n"  +
+	    "Piranhas are more "+input+ " during the day, so cross the river at\n" +
+		"night. Piranhas are attracted to fresh "+input1+ " and will most\n" +
+		"likely take a bite out of your "+input2+ " if you "+input3+ ". Whatever\n"  +
 		"you do, if you have an open wound, try to find another way to get\n"  +
-		"back to the"+input4+ ". Good luck!";
-		
+		"back to the "+input4+ ". Good luck!";
+	  JOptionPane.showMessageDialog(null, story);
 		// Make a pop-up that contains the final story. The \n escape characters add line breaks to the story. 
 		// If you need to, move them around to make your story look better in the pop-up
+	  
 		
 		// If you want to write your own Madlib story, just change the story variable and ask the player different questions.
 
