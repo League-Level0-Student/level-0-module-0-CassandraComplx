@@ -52,7 +52,7 @@ public class QuizGame {
 		
 		// After all the questions have been asked, tell the user their final score 
 				String story =
-					    "Your score is "+count+" points";
+					    "Your final score is "+count+" points";
 					  JOptionPane.showMessageDialog(null, story);
 	}
 }
